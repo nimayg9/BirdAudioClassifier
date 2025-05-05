@@ -25,8 +25,12 @@ An output layer with softmax activation to handle multi-class classification acr
 
 We also implemented early stopping with a patience of three epochs to halt training when validation performance stopped improving.
 
+![YAMNet](https://github.com/user-attachments/assets/bf66121b-c3a3-4b25-ab74-49331b17f4fb)
+
 ## Results and Findings
 When training and testing the model, we achieved an accuracy of around 35 percent with 206 classes on the test data. This is a strong result, considering the large number of species, how similar some sounds are, and the short length of the audio clips. We did observe some overfitting despite using dropout.
+
+<img width="1129" alt="ModelAccuracy:Loss" src="https://github.com/user-attachments/assets/b5de56db-137b-405f-b0a0-373c22b37f73" />
 
 ## Discussion
 One of the main challenges we faced was the imbalance in data across species. Some had hundreds of audio clips, while others had only a few. To address this, we manually limited the number of samples per class to get fairer results. We also applied early stopping and regularization using dropout to help the model generalize better to new bird audio clips.
