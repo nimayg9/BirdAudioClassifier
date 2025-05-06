@@ -7,6 +7,6 @@ Traditionally, biologists and field researchers have to rely on manual audio ana
 
 The project is on classification of under-studied and endangered animal species based on audio datafiles. The goal is to be able to develop a network capable of working with the audio datafiles effectively and identifying these species using only passive recordings. This will aid the efforts of researchers and conservation practitioners to better understand the ecological effects of the restoration. Doing so will ultimately enable them to adjust their actions to best protect the endangered animals within the reserve.
 
-Blog Post: https://medium.com/@leosgordon/birdclef-competition-2025-species-identification-using-audio-data-and-yamnet-keras-52a1c5270f22#237e-44dc498c4345
+Full Blog Post: https://medium.com/@leosgordon/birdclef-competition-2025-species-identification-using-audio-data-and-yamnet-keras-52a1c5270f22#237e-44dc498c4345
 
 Data: https://www.kaggle.com/competitions/birdclef-2025
